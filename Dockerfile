@@ -15,3 +15,5 @@ RUN ./configure \
 
 RUN npm install -g yarn
 RUN yarn global add pm2 gulp bower nodemon
+
+WORKDIR /
